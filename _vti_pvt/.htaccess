@@ -1,0 +1,11 @@
+# -FrontPage-
+
+Options None
+
+<Limit GET POST PUT DELETE>
+order deny,allow
+deny from all
+</Limit>
+AuthName humbertomalojo.com
+AuthUserFile /home/humberto/public_html/_vti_pvt/service.pwd
+AuthGroupFile /home/humberto/public_html/_vti_pvt/service.grp
