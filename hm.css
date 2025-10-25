@@ -1,0 +1,151 @@
+body {
+	background-color: #ccc;
+	scrollbar-arrow-color: #999;
+	scrollbar-3dlight-color: #ccc;
+	scrollbar-darkshadow-color: #ccc;
+	scrollbar-face-color: #ccc;
+	scrollbar-highlight-color: #fff;
+	scrollbar-shadow-color: #fff;
+	scrollbar-track-color: #ccc;
+}
+body.index {
+	background-color: #999;
+	margin: 0px;
+}
+table {
+	font-family: Arial, Verdana, "MS Sans Serif", Geneva, sans-serif;
+	font-size: 14px;
+	color: #4c4c4c;
+}
+a {
+	color: White;
+	font-weight: bold;
+	text-decoration: none;
+}
+a:hover {
+	color: #990000;
+	font-weight: bold;
+	text-decoration: none;
+}
+img {
+	border: 0px;
+}
+span.branco {
+	color: #fff;
+}
+span.pequeno {
+	font-size: 9px;
+}
+
+td.fe {
+	padding-right: 10px;
+	font-size: 10px;
+}
+td.fe a {
+	color: #666;
+}
+td.fe a:hover {
+	color: #fff;
+}
+table.extremo_superior {
+	width: 800px;
+	height: 51px;
+	padding: 0px 50px 10px 10px;
+}
+table.extremo_superior div {
+	width: 420px;
+	height: 51px;
+}
+table.extremo_superior a {
+	background-color: #fff;
+	position: absolute;
+}
+table.extremo_superior .ligado {
+	position: absolute;
+}
+table.extremo_superior .desligado {
+	position: relative;
+}
+table.extremo_superior a:hover .desligado {
+	visibility: hidden;
+}
+table.centro {
+	width: 800px;
+	height: 487px;
+	border: 10px solid #fff;
+	background-color: #ccc;
+}
+table.extremo_inferior {
+	width: 800px;
+	height: 44px;
+	padding: 0px 10px 0px 50px;
+}
+iframe {
+	width: 780px;
+	height: 467px;
+}
+
+table.miniaturas {
+	width: 732px;
+	height: 419px;
+	margin: 24px;
+}
+td.cima {
+	height: 19px;
+	font-weight: bold;
+}
+span.seta {
+	font-family: "MS Sans Serif", Geneva, sans-serif;
+}
+td.baixo {
+	height: 19px;
+	font-weight: bold;
+	text-align: right;
+}
+td.miniatura {
+	width: 236px;
+	height: 115px;
+	/*background-color: #d9d9d9;*/
+	background-color: #d9d9d9;
+}
+td.miniatura div {
+	width: 236px;
+	height: 115px;
+	text-align: left; /* necessário para IE */
+	margin-left: auto; /* necessário para browsers excepto IE */
+	margin-right: auto; /* necessário para browsers excepto IE */
+}
+td.miniatura a {
+	background-color: #fff;
+	position: absolute;
+}
+td.miniatura .ligado {
+	position: absolute;
+}
+td.miniatura .desligado {
+	position: relative;
+}
+td.miniatura a:hover .desligado {
+	visibility: hidden;
+}
+td.miniatura_txt {
+	width: 236px;
+	height: 115px;
+	background-color: #d9d9d9;
+	font-size: 11px;
+	vertical-align: bottom;
+	text-align: right;
+	padding: 10px;
+}
+td.imagem {
+	background-color: #d9d9d9;
+	text-align: center;
+}
+
+table.contacto {
+	width: 780px;
+	height: 467px;
+}
+table.cv {
+	padding: 40px;
+}
